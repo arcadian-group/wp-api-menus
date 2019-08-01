@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: wp-api, wp-rest-api, json-rest-api, json, menus, rest, api, menu-routes
 Requires at least: 3.6.0
 Tested up to: 4.4.2
-Stable tag: 1.3.1
+Stable tag: 1.3.1-arc
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,9 @@ However, menu data organization in json is a bit arbitrary and subjective, and t
 Nothing to show really, this plugin has no settings or frontend, it just extends WP API with new routes. It's up to you how to use them :)
 
 == Changelog ==
+
+= 1.3.1-arc =
+* Enhancement (V2 only): Add ACF fields to v2 response.
 
 = 1.3.1 =
 * Tweak: The `object_slug` property is now available to get the slug for relative URLs - props @Fahrradflucht
