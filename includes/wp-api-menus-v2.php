@@ -114,6 +114,17 @@ if ( ! class_exists( 'WP_REST_Menus' ) ) :
                 $rest_menus[ $i ]['meta']['links']['collection'] = $rest_url;
                 $rest_menus[ $i ]['meta']['links']['self']       = $rest_url . $menu['term_id'];
 
+	            // get ACF fields
+	            $fields = get_fields( 'term_' . $menu['term_id'] );
+	            // If we have fields...
+	            if ( $fields ) {
+		            // Loop through them...
+		            foreach ( $fields as $field_name => $value ) {
+			            // Set the meta
+			            $rest_menus[ $i ][ $field_name ] = $value;
+		            }
+	            }
+
                 $i ++;
             endforeach;
 
@@ -157,6 +168,16 @@ if ( ! class_exists( 'WP_REST_Menus' ) ) :
                 $rest_menu['meta']['links']['collection'] = $rest_url;
                 $rest_menu['meta']['links']['self']       = $rest_url . $id;
 
+	            // get ACF fields
+	            $fields = get_fields( 'term_' . $menu['term_id'] );
+	            // If we have fields
+	            if ( $fields ) {
+		            // Loop through them
+		            foreach ( $fields as $field_name => $value ) {
+			            // Set the meta
+			            $rest_menu[ $field_name ] = $value;
+		            }
+	            }
             endif;
 
             return apply_filters( 'rest_menus_format_menu', $rest_menu );
