@@ -60,6 +60,7 @@ Nothing to show really, this plugin has no settings or frontend, it just extends
 
 = UNRELEASED =
 * Enhancement (V2 only): Add ACF fields to v2 response.
+* Enhancement (V2 only): Allow accessing menu by slug.
 
 = 1.3.1 =
 * Tweak: The `object_slug` property is now available to get the slug for relative URLs - props @Fahrradflucht
