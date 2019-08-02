@@ -409,6 +409,17 @@ if ( ! class_exists( 'WP_REST_Menus' ) ) :
                 'type_label'  => $item['type_label'],
             );
 
+	        // Add ACF fields to menu item.
+	        if ( class_exists( 'acf' ) ) {
+		        $fields = get_fields( $item['ID'] );
+		        if ( ! empty( $fields ) ) {
+			        foreach ( $fields as $field_key => $item ) {
+				        // add all acf custom fields.
+				        $menu_item[ $field_key ] = $item;
+			        }
+		        }
+	        }
+
             if ( $children === true && ! empty( $menu ) ) {
 	            $menu_item['children'] = $this->get_nav_menu_item_children( $item['ID'], $menu );
             }
