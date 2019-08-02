@@ -6,8 +6,8 @@
  *
  * Version:     1.3.1
  *
- * Author:      Fulvio Notarstefano
- * Author URI:  https://github.com/unfulvio
+ * Author:      Arcadian Digital w/ Fulvio Notarstefano
+ * Author URI:  https://github.com/arcadian-group
  *
  * Text Domain: wp-api-menus
  *
