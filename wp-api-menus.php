@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: WP REST API Menus
+ * Plugin Name: WP REST API Menus - Arcadian Digital
  * Plugin URI:  https://github.com/nekojira/wp-api-menus
  * Description: Extends WP API with WordPress menu routes.
  *
- * Version:     1.3.1-arc
+ * Version:     1.3.1
  *
  * Author:      Fulvio Notarstefano
  * Author URI:  https://github.com/unfulvio

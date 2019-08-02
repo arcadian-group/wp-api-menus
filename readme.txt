@@ -1,10 +1,10 @@
 === WP API Menus ===
-Contributors: nekojira
+Contributors: nekojira,dylanpinn
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P64V9NTEYFKDL
 Tags: wp-api, wp-rest-api, json-rest-api, json, menus, rest, api, menu-routes
 Requires at least: 3.6.0
 Tested up to: 4.4.2
-Stable tag: 1.3.1-arc
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,7 +58,7 @@ Nothing to show really, this plugin has no settings or frontend, it just extends
 
 == Changelog ==
 
-= 1.3.1-arc =
+= UNRELEASED =
 * Enhancement (V2 only): Add ACF fields to v2 response.
 
 = 1.3.1 =

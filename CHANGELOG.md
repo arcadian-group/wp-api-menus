@@ -1,4 +1,4 @@
-#### 1.3.1-arc (01 Aug 2019)
+#### UNRELEASED (01 Aug 2019)
  * Enhancement (V2 only): Add ACF fields to v2 response.
 
 #### 1.3.1 (03 Oct 2016)
